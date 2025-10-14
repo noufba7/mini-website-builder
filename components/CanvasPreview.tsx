@@ -13,7 +13,7 @@ function SortableItem({ section, index }: any) {
   const remove = useBuilderStore(s => s.removeSection)
 
   return (
-    <div ref={setNodeRef} style={style} className="bg-white p-3 rounded shadow-sm mb-3">
+    <div ref={setNodeRef} style={style} className="p-3 bg-white rounded mb-3 border border-gray-200">
       <div className="flex justify-between items-start gap-2">
         <div className="flex items-center gap-2">
           <div {...attributes} {...listeners} className="cursor-grab px-2 py-1 m-3 bg-gray-100 rounded">⠿</div>

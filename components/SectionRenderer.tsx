@@ -10,7 +10,7 @@ export default function SectionRenderer({ section }: { section: SectionData }) {
   switch(type) {
     case 'hero':
       return (
-        <div className="p-3 border-gray-600 rounded mb-3 bg-gray-50">
+        <div className="p-3 border-gray-900 rounded mb-3 ">
           <h2
             className="text-xl font-bold"
             contentEditable

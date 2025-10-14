@@ -44,7 +44,7 @@ export default function Page() {
       </aside>
 
       <main className="md:ml-64 p-6">
-        <div className="max-w-7xl mx-auto bg-white p-6 rounded shadow">
+        <div className="max-w-7xl mx-auto bg-white p-6 rounded shadow opacity-0 translate-y-6 animate-fade-in-up">
           <CanvasPreview />
         </div>
       </main>

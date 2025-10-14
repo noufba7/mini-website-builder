@@ -17,6 +17,13 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <a
+          href="./Nouf Baabbad-CV.pdf"
+          download
+          className="fixed bottom-6 right-6 px-4 py-2 bg-black text-white rounded shadow transition z-50"
+        >
+          Download My CV
+        </a>
       {/* responsive side bar*/}
       <aside className="w-full md:fixed md:top-0 md:left-0 md:h-full md:w-64 p-4 bg-white space-y-4 z-20">
         <SectionLibrary />

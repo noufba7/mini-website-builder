@@ -47,7 +47,7 @@ export default function CanvasPreview() {
   return (
     <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={onDragEnd}>
       <SortableContext items={sections.map(s => s.id)} strategy={verticalListSortingStrategy}>
-        {sections.length === 0 && <div className="p-8 text-center text-gray-400">Add sections from library</div>}
+        {sections.length === 0 && <div className="p-8 text-center text-gray-400">Add sections from sidebar</div>}
         {sections.map((s, i) => <SortableItem key={s.id} section={s} index={i} />)}
       </SortableContext>
     </DndContext>
